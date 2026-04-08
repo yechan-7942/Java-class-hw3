@@ -29,7 +29,6 @@ public class Rep03Replace2 {
                 calories = (10 * dweight) + (6.25 * dheight) - (5 * dage) - 161;
             }
 
-
             int chocolate= (int)(calories / 200);
 
             JOptionPane.showMessageDialog(null,"하루에 필요한 칼로리 : " + calories + "kcal" + "\n" +
